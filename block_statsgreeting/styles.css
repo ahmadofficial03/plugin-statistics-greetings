@@ -1,0 +1,52 @@
+.block-stats-greeting {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.statistics-section {
+    flex: 70%;
+    padding: 10px;
+}
+
+.timegreet-section {
+    flex: 30%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.statistics-section h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.statistics-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.statistics-section li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.statistics-section li img {
+    margin-right: 10px;
+}
+
+.timegreet-section h3 {
+    margin-top: 0;
+    color: #444;
+}
+
+.timegreet-section p {
+    color: #666;
+}
+
+
+@media (max-width: 600px) {
+    .statistics-section, .timegreet-section {
+        flex: 100%;
+    }
+}   
